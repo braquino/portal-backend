@@ -1,0 +1,25 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "debug",
+      "binaryDir": "build-dbg",
+      "environment": {
+        "CMAKE_TOOLCHAIN_FILE": "/opt/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "CMAKE_PREFIX_PATH": "/usr/lib/cmake/Crow",
+        "CMAKE_BUILD_TYPE": "Debug",
+        "BOOST_INCLUDE_DIR": "external/include/boost",
+        "POSTGRESQL_INCLUDE_DIR": "/usr/include/postgresql"
+      }
+    },
+    {
+      "name": "release",
+      "binaryDir": "build-rls",
+      "environment": {
+        "CMAKE_TOOLCHAIN_FILE": "/opt/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "CMAKE_PREFIX_PATH": "/usr/lib/cmake/Crow",
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    }
+  ]
+}
