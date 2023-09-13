@@ -1,4 +1,0 @@
-/home/brunoaquino/repos/braq-server/portal-backend/build-dbg/CMakeFiles/portal-backend.dir
-/home/brunoaquino/repos/braq-server/portal-backend/build-dbg/CMakeFiles/test-backend.dir
-/home/brunoaquino/repos/braq-server/portal-backend/build-dbg/CMakeFiles/edit_cache.dir
-/home/brunoaquino/repos/braq-server/portal-backend/build-dbg/CMakeFiles/rebuild_cache.dir
